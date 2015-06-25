@@ -1,0 +1,150 @@
+(
+    {
+        categories =     (
+                    {
+                icon =             {
+                    prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_";
+                    suffix = ".png";
+                };
+                id = 4bf58dd8d48988d1c1941735;
+                name = "Mexican Restaurant";
+                pluralName = "Mexican Restaurants";
+                primary = 1;
+                shortName = Mexican;
+            }
+        );
+        contact =     {
+            formattedPhone = "(212) 344-0941";
+            phone = 2123440941;
+            twitter = chipotletweets;
+        };
+        hereNow =     {
+            count = 0;
+            groups =         (
+            );
+            summary = "Nobody here";
+        };
+        id = 4a807ab1f964a52067f51fe3;
+        location =     {
+            address = "2 Broadway";
+            cc = US;
+            city = "New York";
+            country = "United States";
+            crossStreet = "Broadway bet Beaver & Stone";
+            distance = 97;
+            formattedAddress =         (
+                "2 Broadway (Broadway bet Beaver & Stone)",
+                "New York, NY 10004",
+                "United States"
+            );
+            lat = "40.7042372264966";
+            lng = "-74.01304214116337";
+            postalCode = 10004;
+            state = NY;
+        };
+        menu =     {
+            anchor = "View Menu";
+            externalUrl = "http://chipotle.com/en-US/menu/menu.aspx";
+            label = Menu;
+            mobileUrl = "http://chipotle.com/en-US/menu/menu.aspx";
+            type = Menu;
+            url = "http://chipotle.com/en-US/menu/menu.aspx";
+        };
+        name = "Chipotle Mexican Grill";
+        referralId = "v-1435074070";
+        specials =     {
+            count = 0;
+            items =         (
+            );
+        };
+        stats =     {
+            checkinsCount = 9825;
+            tipCount = 51;
+            usersCount = 3879;
+        };
+        storeId = 476;
+        url = "http://www.chipotle.com";
+        verified = 1;
+    },
+    {
+        categories =     (
+                    {
+                icon =             {
+                    prefix = "https://ss3.4sqi.net/img/categories_v2/food/mexican_";
+                    suffix = ".png";
+                };
+                id = 4bf58dd8d48988d1c1941735;
+                name = "Mexican Restaurant";
+                pluralName = "Mexican Restaurants";
+                primary = 1;
+                shortName = Mexican;
+            }
+        );
+        contact =     {
+            formattedPhone = "(212) 269-1177";
+            phone = 2122691177;
+            twitter = maddogandbeans;
+        };
+        delivery =     {
+            provider =         {
+                name = grubhub;
+            };
+            url = "http://www.grubhub.com/order_redir.jsp?custId=276933&affId=1131";
+        };
+        hasMenu = 1;
+        hereNow =     {
+            count = 0;
+            groups =         (
+            );
+            summary = "Nobody here";
+        };
+        id = 4a15a2e8f964a520a9781fe3;
+        location =     {
+            address = "83 Pearl St";
+            cc = US;
+            city = "New York";
+            country = "United States";
+            crossStreet = "at Stone St";
+            distance = 304;
+            formattedAddress =         (
+                "83 Pearl St (at Stone St)",
+                "New York, NY 10004",
+                "United States"
+            );
+            lat = "40.70428723922974";
+            lng = "-74.01012135152561";
+            postalCode = 10004;
+            state = NY;
+        };
+        menu =     {
+            anchor = "View Menu";
+            label = Menu;
+            mobileUrl = "https://foursquare.com/v/4a15a2e8f964a520a9781fe3/device_menu";
+            type = Menu;
+            url = "https://foursquare.com/v/mad-dog--beans-mexican-cantina/4a15a2e8f964a520a9781fe3/menu";
+        };
+        name = "Mad Dog & Beans Mexican Cantina";
+        referralId = "v-1435074070";
+        reservations =     {
+            url = "http://www.opentable.com/single.aspx?rid=76924&ref=9601";
+        };
+        specials =     {
+            count = 0;
+            items =         (
+            );
+        };
+        stats =     {
+            checkinsCount = 15546;
+            tipCount = 131;
+            usersCount = 7477;
+        };
+        storeId = "";
+        url = "http://www.maddogandbeans.com";
+        venuePage =     {
+            id = 32826442;
+        };
+        verified = 1;
+    }
+)
+
+

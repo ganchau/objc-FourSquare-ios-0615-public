@@ -22,6 +22,11 @@
 		31FE550719F6A171002BA561 /* foursquareResultsStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 31FE54D319F694E4002BA561 /* foursquareResultsStub.json */; };
 		31FE550919F6F6F4002BA561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FE550819F6F6F4002BA561 /* Main.storyboard */; };
 		B58A562F143740C205F1E545 /* libPods-objc-Foursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AFBAB719BC3CDA21C4E0F3 /* libPods-objc-Foursquare.a */; };
+		BD1F090B1B39B71100D135DD /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F090A1B39B71100D135DD /* Venue.m */; };
+		BD1F090E1B39B76E00D135DD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F090D1B39B76E00D135DD /* Location.m */; };
+		BD1F09111B39D37E00D135DD /* SearchQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F09101B39D37E00D135DD /* SearchQueryViewController.m */; };
+		BD1F09141B39D3AF00D135DD /* VenuesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F09131B39D3AF00D135DD /* VenuesTableViewController.m */; };
+		BD1F09171B39D3D700D135DD /* VenueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F09161B39D3D700D135DD /* VenueDetailViewController.m */; };
 		F955FE3B74C32A86A302243C /* libPods-objc-FoursquareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5B7F337D69B31D5C8090FC /* libPods-objc-FoursquareTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +61,16 @@
 		31FE550819F6F6F4002BA561 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3D0C3F6740B297107517A903 /* Pods-objc-Foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-Foursquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-objc-Foursquare/Pods-objc-Foursquare.release.xcconfig"; sourceTree = "<group>"; };
 		88AFBAB719BC3CDA21C4E0F3 /* libPods-objc-Foursquare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objc-Foursquare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F09091B39B71100D135DD /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		BD1F090A1B39B71100D135DD /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		BD1F090C1B39B76E00D135DD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		BD1F090D1B39B76E00D135DD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		BD1F090F1B39D37E00D135DD /* SearchQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQueryViewController.h; sourceTree = "<group>"; };
+		BD1F09101B39D37E00D135DD /* SearchQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQueryViewController.m; sourceTree = "<group>"; };
+		BD1F09121B39D3AF00D135DD /* VenuesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuesTableViewController.h; sourceTree = "<group>"; };
+		BD1F09131B39D3AF00D135DD /* VenuesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuesTableViewController.m; sourceTree = "<group>"; };
+		BD1F09151B39D3D700D135DD /* VenueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueDetailViewController.h; sourceTree = "<group>"; };
+		BD1F09161B39D3D700D135DD /* VenueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueDetailViewController.m; sourceTree = "<group>"; };
 		CB8E1DAB8113FDF8A379979E /* Pods-objc-FoursquareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-FoursquareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-objc-FoursquareTests/Pods-objc-FoursquareTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC5B7F337D69B31D5C8090FC /* libPods-objc-FoursquareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objc-FoursquareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF78705BBAA3B635C61D371A /* Pods-objc-Foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-Foursquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-objc-Foursquare/Pods-objc-Foursquare.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +120,16 @@
 		31D1116319F5BAE3003E7B45 /* objc-Foursquare */ = {
 			isa = PBXGroup;
 			children = (
+				BD1F090F1B39D37E00D135DD /* SearchQueryViewController.h */,
+				BD1F09101B39D37E00D135DD /* SearchQueryViewController.m */,
+				BD1F09121B39D3AF00D135DD /* VenuesTableViewController.h */,
+				BD1F09131B39D3AF00D135DD /* VenuesTableViewController.m */,
+				BD1F09151B39D3D700D135DD /* VenueDetailViewController.h */,
+				BD1F09161B39D3D700D135DD /* VenueDetailViewController.m */,
+				BD1F090C1B39B76E00D135DD /* Location.h */,
+				BD1F090D1B39B76E00D135DD /* Location.m */,
+				BD1F09091B39B71100D135DD /* Venue.h */,
+				BD1F090A1B39B71100D135DD /* Venue.m */,
 				31D1116819F5BAE3003E7B45 /* AppDelegate.h */,
 				31D1116919F5BAE3003E7B45 /* AppDelegate.m */,
 				31FE550819F6F6F4002BA561 /* Main.storyboard */,
@@ -338,8 +363,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1F090B1B39B71100D135DD /* Venue.m in Sources */,
+				BD1F09141B39D3AF00D135DD /* VenuesTableViewController.m in Sources */,
 				31D1116A19F5BAE3003E7B45 /* AppDelegate.m in Sources */,
+				BD1F09111B39D37E00D135DD /* SearchQueryViewController.m in Sources */,
+				BD1F090E1B39B76E00D135DD /* Location.m in Sources */,
 				31D1116719F5BAE3003E7B45 /* main.m in Sources */,
+				BD1F09171B39D3D700D135DD /* VenueDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

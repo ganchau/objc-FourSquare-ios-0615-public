@@ -8,11 +8,28 @@
 
 #import "AppDelegate.h"
 #import <OHHTTPStubs/OHHTTPStubs.h>
+#import <Foursquare-API-v2/Foursquare2.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Foursquare2 setupFoursquareWithClientId:@"4CYIWCSVTU40F1RGDRXIYS1ATQ4TQ2GGXWTRMNW5M3VYPCDW"
+                                      secret:@"ZYS0F3CJEFAQVXUWOYW5Y4VZYAT3IR0XLM5QZSW4NRZKVRQ4"
+                                 callbackURL:@"com.flatironschool"];
+    
+//    [Foursquare2 venueSearchNearByLatitude:@40.7050 // The user tells us they are at Bowling Green
+//                                 longitude:@-74.0136
+//                                     query:@"Mexican" // User tells us they want mexican
+//                                     limit:@100 // We'll allow 100 results
+//                                    intent:intentBrowse
+//                                    radius:@1500 //We'll search a 1500 m radius
+//                                categoryId:nil
+//                                  callback:^(BOOL success, id result) {
+//                                      NSLog(@"%@", result); // This log message prints a dictionary of data returned from the API
+//                                  }];
+
+    
     if (isRunningTests()) {
         
         [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
@@ -32,6 +49,12 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [Foursquare2 handleURL:url];
+}
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -45,6 +68,7 @@ static BOOL isRunningTests(void)
     NSString* injectBundle = environment[@"XCInjectBundle"];
     return [[injectBundle pathExtension] isEqualToString:@"xctest"];
 }
+
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 

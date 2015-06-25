@@ -6,7 +6,7 @@
 //  Copyright 2014 Flatiron School. All rights reserved.
 //
 
-#ifndef ADVANCED
+//#ifndef ADVANCED
 #import "Specta.h"
 
 #define EXP_SHORTHAND
@@ -102,4 +102,4 @@ describe(@"VenuesTableViewController", ^{
 });
 
 SpecEnd
-#endif
+//#endif

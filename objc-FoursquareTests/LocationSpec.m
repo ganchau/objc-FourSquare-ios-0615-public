@@ -6,7 +6,7 @@
 //  Copyright 2014 Flatiron School. All rights reserved.
 //
 
-#ifdef ADVANCED
+//#ifdef ADVANCED
 #import "Specta.h"
 #define EXP_SHORTHAND
 #import "Expecta.h"
@@ -131,4 +131,4 @@ describe(@"Location", ^{
 });
 
 SpecEnd
-#endif
+//#endif
