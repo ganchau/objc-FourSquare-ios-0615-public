@@ -12,13 +12,14 @@
 
 - (instancetype)init
 {
-    self = [self initWithName:@"" venueId:@"" location:[[Location alloc] init]];
+    self = [self initWithName:@"" venueId:@"" location:[[Location alloc] init] checkinsCount:@0];
     return self;
 }
 
 - (instancetype)initWithName:(NSString *)name
                      venueId:(NSString *)venueId
-                    location:(Location *)location;
+                    location:(Location *)location
+               checkinsCount:(NSNumber *)checkinsCount
 {
     self = [super init];
     
@@ -26,6 +27,7 @@
         _name = name;
         _venueId = venueId;
         _location = location;
+        _checkinsCount = checkinsCount;
     }
     return self;
 }
@@ -44,7 +46,8 @@
 {
     Venue *venue = [[Venue alloc] initWithName:venueDictionary[@"name"]
                                        venueId:venueDictionary[@"id"]
-                                      location:[Location locationWithLocationDictionary:venueDictionary[@"location"]]];
+                                      location:[Location locationWithLocationDictionary:venueDictionary[@"location"]]
+                                 checkinsCount:venueDictionary[@"stats"][@"checkinsCount"]];
     return venue;
 }
 

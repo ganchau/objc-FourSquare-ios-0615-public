@@ -14,10 +14,12 @@
 @property (nonatomic,strong)NSString *name;
 @property (nonatomic,strong)NSString *venueId;
 @property (nonatomic,strong)Location *location;
+@property (nonatomic,strong)NSNumber *checkinsCount;
 
 - (instancetype)initWithName:(NSString *)name
                      venueId:(NSString *)venueId
-                    location:(Location *)location;
+                    location:(Location *)location
+               checkinsCount:(NSNumber *)checkinsCount;;
 
 // These Methods are not Required, but are convenience methods that make your life much easier.   Essentially, they allow you to pass in a dictionary or array of dictionaries and return a Venue or array of Venues.
  

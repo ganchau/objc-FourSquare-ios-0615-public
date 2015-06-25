@@ -49,8 +49,15 @@
     
     // Configure the cell...
     Venue *venue = self.venues[indexPath.row];
+    NSString *checkins = [venue.checkinsCount stringValue];
+    
     cell.textLabel.text = venue.name;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"💟 %@", checkins];
+    
+    UIImage *image = [UIImage imageNamed:@"pin"];
+    cell.imageView.image = image;
     return cell;
+
 }
 
 
